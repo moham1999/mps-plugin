@@ -35,7 +35,8 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
         return props_Empty;
       case LanguageConceptSwitch.State:
         if (props_State == null) {
-          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder(0xc840535e42134a05L, 0x832f5cc528f47f6eL, 0x12c827797080ae8fL);
+          cpb.deprecateProperty(0x12c8277970837859L, "description_old");
           cpb.presentationByName();
           props_State = cpb.create();
         }

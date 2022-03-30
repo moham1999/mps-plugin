@@ -7,7 +7,7 @@
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="kq7i" ref="r:732bdf84-14c6-4711-9496-853be06f2200(MyLang.structure)" implicit="true" />
+    <import index="kq7i" ref="r:732bdf84-14c6-4711-9496-853be06f2200(StateMachines.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -110,7 +110,7 @@
         <node concept="VPM3Z" id="1b89R_Kyr6G" role="3F10Kt" />
       </node>
       <node concept="3F0A7n" id="1b89R_KwRx$" role="3EZMnx">
-        <ref role="1NtTu8" to="kq7i:1b89R_KwRxp" resolve="description" />
+        <ref role="1NtTu8" to="kq7i:49c3hqRf1oc" resolve="description" />
         <node concept="VechU" id="1b89R_KxUre" role="3F10Kt">
           <property role="Vb096" value="fLJRk5_/gray" />
         </node>
@@ -152,6 +152,12 @@
             </node>
           </node>
         </node>
+      </node>
+      <node concept="3F0ifn" id="49c3hqRfd$c" role="3EZMnx">
+        <property role="3F0ifm" value="   " />
+      </node>
+      <node concept="3F0A7n" id="49c3hqRfdzI" role="3EZMnx">
+        <ref role="1NtTu8" to="kq7i:49c3hqRf1oc" resolve="description" />
       </node>
     </node>
   </node>

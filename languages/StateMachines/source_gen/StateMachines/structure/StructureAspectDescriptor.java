@@ -64,6 +64,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.class_(false, true, false);
     b.origin("r:732bdf84-14c6-4711-9496-853be06f2200(StateMachines.structure)/1353375090556920593");
     b.version(3);
+    b.property("description", 0x424c0d16b73c160cL).type(PrimitiveTypeId.STRING).origin("4777207695947863564").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForEmpty() {
@@ -83,7 +84,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
     b.origin("r:732bdf84-14c6-4711-9496-853be06f2200(StateMachines.structure)/1353375090556841615");
     b.version(3);
-    b.property("description", 0x12c8277970837859L).type(PrimitiveTypeId.STRING).origin("1353375090557024345").done();
+    b.property("description_old", 0x12c8277970837859L).type(PrimitiveTypeId.STRING).origin("1353375090557024345").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForStateMachine() {

@@ -1,1 +1,6 @@
-/languages/MyLang/source_gen.caches/MyLang/behavior/generated
+
+# MVG
+**/*_gen
+**/*_gen.caches
+.mps/workspace.xml
+/.mps-caches/**
