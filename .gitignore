@@ -1,6 +1,5 @@
 
 # MVG
-**/*_gen
-**/*_gen.caches
-.mps/workspace.xml
+**/*_gen/**
+**/*_gen.caches/**
 /.mps-caches/**

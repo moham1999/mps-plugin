@@ -1,9 +1,5 @@
 # MPS
 
-*_gen
-*_gen.caches
-*.class
-
 workspace.xml
 junitvmwatcher*.properties
 build.properties
