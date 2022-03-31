@@ -278,7 +278,6 @@
         </node>
       </node>
     </node>
-    <node concept="1FPxxo" id="5lbwvqWN$$t" role="1FPzNG" />
     <node concept="1FPxxo" id="5lbwvqWOL16" role="1FPzNG" />
     <node concept="32q3_s" id="5lbwvqWOL2B" role="1FPzNG">
       <property role="TrG5h" value="pairs" />
@@ -726,29 +725,6 @@
               </node>
             </node>
           </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="311c5q" id="5lbwvqXgMtj">
-    <property role="3GE5qa" value="base" />
-    <ref role="311c5K" to="kq7i:5lbwvqWMJFn" resolve="StateMachineTable" />
-    <ref role="2RaPBF" node="5lbwvqWMSz0" resolve="BASE" />
-    <node concept="1FPxxo" id="5lbwvqWOcyj" role="1FPzNG" />
-    <node concept="32q3_s" id="5lbwvqWOcyi" role="1FPzNG">
-      <property role="TrG5h" value="states" />
-      <node concept="2I9FWS" id="5lbwvqWOcy9" role="1tU5fm">
-        <ref role="2I9WkF" to="kq7i:1b89R_KwaUf" resolve="State" />
-      </node>
-      <node concept="2OqwBi" id="5lbwvqWOcyb" role="33vP2m">
-        <node concept="2OqwBi" id="5lbwvqWOcyc" role="2Oq$k0">
-          <node concept="2Wb9Zs" id="5lbwvqWOcyd" role="2Oq$k0" />
-          <node concept="3TrEf2" id="5lbwvqWOcye" role="2OqNvi">
-            <ref role="3Tt5mk" to="kq7i:5lbwvqWMJFq" resolve="stateMachine" />
-          </node>
-        </node>
-        <node concept="32jkxy" id="5lbwvqWOSRW" role="2OqNvi">
-          <ref role="3cqZAo" node="5lbwvqWOOD2" resolve="states" />
         </node>
       </node>
     </node>
