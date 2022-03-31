@@ -1168,7 +1168,7 @@
     <node concept="1FPxxo" id="v9KtuBwcxS" role="1FPzNG" />
   </node>
   <node concept="311c5q" id="v9KtuBwdC$">
-    <property role="3GE5qa" value="simulation.text" />
+    <property role="3GE5qa" value="simulation" />
     <ref role="311c5K" to="kq7i:25flf1JmxiG" resolve="Input" />
     <ref role="2RaPBF" node="v9KtuBq1EC" resolve="SIMULATION" />
     <node concept="1FPxxo" id="v9KtuBwdC_" role="1FPzNG" />
