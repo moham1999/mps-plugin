@@ -283,7 +283,7 @@
     </node>
     <node concept="1TJgyj" id="5lbwvqWQNHj" role="1TKVEi">
       <property role="IQ2ns" value="6146149013207595859" />
-      <property role="20kJfa" value="outPut" />
+      <property role="20kJfa" value="output" />
       <ref role="20lvS9" node="5lbwvqWKj3R" resolve="Output" />
     </node>
   </node>
@@ -292,6 +292,18 @@
     <property role="3GE5qa" value="table" />
     <property role="TrG5h" value="TransitionCell" />
     <ref role="1TJDcQ" node="5lbwvqWNyz0" resolve="StateMachineCell" />
+    <node concept="1TJgyj" id="5lbwvqXhCxm" role="1TKVEi">
+      <property role="IQ2ns" value="6146149013214627926" />
+      <property role="20kJfa" value="from" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="1b89R_KwaUf" resolve="State" />
+    </node>
+    <node concept="1TJgyj" id="5lbwvqXhCxq" role="1TKVEi">
+      <property role="IQ2ns" value="6146149013214627930" />
+      <property role="20kJfa" value="to" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="1b89R_KwaUf" resolve="State" />
+    </node>
     <node concept="1TJgyj" id="5lbwvqWRK2F" role="1TKVEi">
       <property role="IQ2ns" value="6146149013207842987" />
       <property role="20kJfa" value="transition" />

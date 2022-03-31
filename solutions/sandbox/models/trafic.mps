@@ -26,13 +26,15 @@
         <child id="6146149013206739140" name="headers" index="3Dxq$M" />
       </concept>
       <concept id="6146149013206739406" name="StateMachines.structure.TransitionCell" flags="ng" index="3DxqwS">
+        <reference id="6146149013214627926" name="from" index="3C3gAw" />
+        <reference id="6146149013214627930" name="to" index="3C3gAG" />
         <reference id="6146149013207842989" name="input" index="3D_85r" />
         <reference id="6146149013207842987" name="transition" index="3D_85t" />
       </concept>
       <concept id="6146149013206739210" name="StateMachines.structure.LeftUpperHeader" flags="ng" index="3DxqzW" />
       <concept id="6146149013206739211" name="StateMachines.structure.ToStateHeader" flags="ng" index="3DxqzX">
         <reference id="6146149013206739297" name="toState" index="3Dxqyn" />
-        <reference id="6146149013207595859" name="outPut" index="3D$bE_" />
+        <reference id="6146149013207595859" name="output" index="3D$bE_" />
       </concept>
       <concept id="6146149013206739177" name="StateMachines.structure.FromStateCell" flags="ng" index="3Dxq$v">
         <reference id="6146149013206739178" name="fromState" index="3Dxq$s" />
@@ -113,20 +115,36 @@
       <node concept="3Dxq$v" id="5lbwvqWPLU5" role="3Dxq$R">
         <ref role="3Dxq$s" node="1b89R_Kyr6v" resolve="GREEN" />
       </node>
-      <node concept="3DxqwS" id="5lbwvqWPLU6" role="3Dxq$R" />
-      <node concept="3DxqwS" id="5lbwvqWPLU7" role="3Dxq$R">
+      <node concept="3DxqwS" id="5lbwvqXkhj6" role="3Dxq$R">
+        <ref role="3C3gAw" node="1b89R_Kyr6v" resolve="GREEN" />
+        <ref role="3C3gAG" node="1b89R_Kyr6v" resolve="GREEN" />
+      </node>
+      <node concept="3DxqwS" id="5lbwvqXkhj7" role="3Dxq$R">
+        <ref role="3C3gAw" node="1b89R_Kyr6v" resolve="GREEN" />
+        <ref role="3C3gAG" node="1b89R_Kyr6x" resolve="ORANGE" />
         <ref role="3D_85r" node="5lbwvqWL0bc" resolve="goRed" />
         <ref role="3D_85t" node="1b89R_Kyr6E" />
       </node>
-      <node concept="3DxqwS" id="5lbwvqWPLU8" role="3Dxq$R" />
+      <node concept="3DxqwS" id="5lbwvqXkhj8" role="3Dxq$R">
+        <ref role="3C3gAw" node="1b89R_Kyr6v" resolve="GREEN" />
+        <ref role="3C3gAG" node="1b89R_Kyr6$" resolve="RED" />
+      </node>
     </node>
     <node concept="3DxqA6" id="5lbwvqWPLTZ" role="3Dxq$L">
       <node concept="3Dxq$v" id="5lbwvqWPLU9" role="3Dxq$R">
         <ref role="3Dxq$s" node="1b89R_Kyr6x" resolve="ORANGE" />
       </node>
-      <node concept="3DxqwS" id="5lbwvqWPLUa" role="3Dxq$R" />
-      <node concept="3DxqwS" id="5lbwvqWPLUb" role="3Dxq$R" />
-      <node concept="3DxqwS" id="5lbwvqWPLUc" role="3Dxq$R">
+      <node concept="3DxqwS" id="5lbwvqXkhj9" role="3Dxq$R">
+        <ref role="3C3gAw" node="1b89R_Kyr6x" resolve="ORANGE" />
+        <ref role="3C3gAG" node="1b89R_Kyr6v" resolve="GREEN" />
+      </node>
+      <node concept="3DxqwS" id="5lbwvqXkhja" role="3Dxq$R">
+        <ref role="3C3gAw" node="1b89R_Kyr6x" resolve="ORANGE" />
+        <ref role="3C3gAG" node="1b89R_Kyr6x" resolve="ORANGE" />
+      </node>
+      <node concept="3DxqwS" id="5lbwvqXkhjb" role="3Dxq$R">
+        <ref role="3C3gAw" node="1b89R_Kyr6x" resolve="ORANGE" />
+        <ref role="3C3gAG" node="1b89R_Kyr6$" resolve="RED" />
         <ref role="3D_85r" node="5lbwvqWL_ZN" resolve="endTimer" />
         <ref role="3D_85t" node="1b89R_KyuRH" />
       </node>
@@ -135,22 +153,30 @@
       <node concept="3Dxq$v" id="5lbwvqWPLU1" role="3Dxq$R">
         <ref role="3Dxq$s" node="1b89R_Kyr6$" resolve="RED" />
       </node>
-      <node concept="3DxqwS" id="5lbwvqWPLU2" role="3Dxq$R">
+      <node concept="3DxqwS" id="5lbwvqXkhjc" role="3Dxq$R">
+        <ref role="3C3gAw" node="1b89R_Kyr6$" resolve="RED" />
+        <ref role="3C3gAG" node="1b89R_Kyr6v" resolve="GREEN" />
         <ref role="3D_85r" node="5lbwvqWL0c$" resolve="goGreen" />
         <ref role="3D_85t" node="1b89R_KyuRK" />
       </node>
-      <node concept="3DxqwS" id="5lbwvqWPLU3" role="3Dxq$R" />
-      <node concept="3DxqwS" id="5lbwvqWPLU4" role="3Dxq$R" />
+      <node concept="3DxqwS" id="5lbwvqXkhjd" role="3Dxq$R">
+        <ref role="3C3gAw" node="1b89R_Kyr6$" resolve="RED" />
+        <ref role="3C3gAG" node="1b89R_Kyr6x" resolve="ORANGE" />
+      </node>
+      <node concept="3DxqwS" id="5lbwvqXkhje" role="3Dxq$R">
+        <ref role="3C3gAw" node="1b89R_Kyr6$" resolve="RED" />
+        <ref role="3C3gAG" node="1b89R_Kyr6$" resolve="RED" />
+      </node>
     </node>
-    <node concept="3DxqzX" id="5lbwvqX83Qx" role="3Dxq$M">
+    <node concept="3DxqzX" id="5lbwvqXdgyc" role="3Dxq$M">
       <ref role="3Dxqyn" node="1b89R_Kyr6v" resolve="GREEN" />
       <ref role="3D$bE_" node="5lbwvqWL0bL" resolve="green" />
     </node>
-    <node concept="3DxqzX" id="5lbwvqX83Qy" role="3Dxq$M">
+    <node concept="3DxqzX" id="5lbwvqXdgyd" role="3Dxq$M">
       <ref role="3Dxqyn" node="1b89R_Kyr6x" resolve="ORANGE" />
       <ref role="3D$bE_" node="5lbwvqWLuwr" resolve="startTimer" />
     </node>
-    <node concept="3DxqzX" id="5lbwvqX83Qz" role="3Dxq$M">
+    <node concept="3DxqzX" id="5lbwvqXdgye" role="3Dxq$M">
       <ref role="3Dxqyn" node="1b89R_Kyr6$" resolve="RED" />
       <ref role="3D$bE_" node="5lbwvqWLuvV" resolve="red" />
     </node>
