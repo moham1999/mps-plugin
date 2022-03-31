@@ -979,14 +979,8 @@
     </node>
     <node concept="1FPxxo" id="5lbwvqXhCxZ" role="1FPzNG" />
   </node>
-  <node concept="311c5q" id="5lbwvqXp_Pn">
-    <property role="3GE5qa" value="to_text" />
-    <ref role="311c5K" to="kq7i:5lbwvqWNyzD" resolve="FromStateCell" />
-    <ref role="2RaPBF" node="5lbwvqXfHcp" resolve="TO_TEXT" />
-    <node concept="1FPxxo" id="5lbwvqXuxzx" role="1FPzNG" />
-  </node>
   <node concept="311c5q" id="5lbwvqXNu3y">
-    <property role="3GE5qa" value="to_text.table" />
+    <property role="3GE5qa" value="to_text" />
     <ref role="311c5K" to="kq7i:5lbwvqWNyxK" resolve="StateMachineRow" />
     <ref role="2RaPBF" node="5lbwvqXfHcp" resolve="TO_TEXT" />
     <node concept="1FPxxo" id="5lbwvqXNu3z" role="1FPzNG" />
