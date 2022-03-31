@@ -4,6 +4,7 @@
   <languages>
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="14" />
     <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="4" />
+    <use id="0272d3b4-4cc8-481e-9e2f-07793fbfcb41" name="jetbrains.mps.lang.editor.table" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -92,8 +93,18 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+    <language id="0272d3b4-4cc8-481e-9e2f-07793fbfcb41" name="jetbrains.mps.lang.editor.table">
+      <concept id="2253133157536766818" name="jetbrains.mps.lang.editor.table.structure.CellModel_HierarchycalTable" flags="ng" index="1hTEv9">
+        <reference id="6216065619544939795" name="cellsInRowLinkDeclaration" index="1BfnIG" />
+        <reference id="6216065619544939794" name="rowsLinkDeclaration" index="1BfnIH" />
+        <reference id="6216065619544939793" name="headerRowLinkDeclaration" index="1BfnII" />
       </concept>
     </language>
   </registry>
@@ -317,6 +328,122 @@
       </node>
       <node concept="PMmxH" id="5lbwvqWKj7A" role="3EZMnx">
         <ref role="PMmxG" node="5lbwvqWKj3U" resolve="DescriptionComponent" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="5lbwvqWMJFQ">
+    <property role="3GE5qa" value="table" />
+    <ref role="1XX52x" to="kq7i:5lbwvqWMJFn" resolve="StateMachineTable" />
+    <node concept="3EZMnI" id="5lbwvqWNytI" role="2wV5jI">
+      <node concept="2iRkQZ" id="5lbwvqWNytJ" role="2iSdaV" />
+      <node concept="3EZMnI" id="5lbwvqWMJG4" role="3EZMnx">
+        <node concept="2iRfu4" id="5lbwvqWMJG5" role="2iSdaV" />
+        <node concept="3F0ifn" id="5lbwvqWMJG6" role="3EZMnx">
+          <property role="3F0ifm" value="state machine table" />
+          <node concept="VPM3Z" id="5lbwvqWMJG7" role="3F10Kt" />
+          <node concept="VechU" id="5lbwvqWMJG8" role="3F10Kt">
+            <property role="Vb096" value="g1_eI4o/darkBlue" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="5lbwvqWMJG9" role="3EZMnx">
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        </node>
+      </node>
+      <node concept="35HoNQ" id="5lbwvqWPLUW" role="3EZMnx" />
+      <node concept="1hTEv9" id="5lbwvqWNyxA" role="3EZMnx">
+        <ref role="1BfnII" to="kq7i:5lbwvqWNyz4" resolve="columns" />
+        <ref role="1BfnIH" to="kq7i:5lbwvqWNyz7" resolve="rows" />
+        <ref role="1BfnIG" to="kq7i:5lbwvqWNyz1" resolve="cells" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="5lbwvqWNy$A">
+    <property role="3GE5qa" value="table" />
+    <ref role="1XX52x" to="kq7i:5lbwvqWNy$a" resolve="EmptyColumn" />
+    <node concept="3EZMnI" id="5lbwvqWQ4Hi" role="2wV5jI">
+      <node concept="2iRkQZ" id="5lbwvqWQ4Hj" role="2iSdaV" />
+      <node concept="3EZMnI" id="5lbwvqWNyB8" role="3EZMnx">
+        <node concept="2iRfu4" id="5lbwvqWNyB9" role="2iSdaV" />
+        <node concept="3F0ifn" id="5lbwvqWQ4HA" role="3EZMnx">
+          <property role="3F0ifm" value="     to" />
+          <node concept="VPM3Z" id="5lbwvqWQe7i" role="3F10Kt" />
+          <node concept="VechU" id="5lbwvqWQEio" role="3F10Kt">
+            <property role="Vb096" value="hGRnIZc/lightBlue" />
+          </node>
+        </node>
+      </node>
+      <node concept="3EZMnI" id="5lbwvqWQ4Hu" role="3EZMnx">
+        <node concept="2iRfu4" id="5lbwvqWQ4Hv" role="2iSdaV" />
+        <node concept="3F0ifn" id="5lbwvqWQ4Hq" role="3EZMnx">
+          <property role="3F0ifm" value="from   " />
+          <node concept="VPM3Z" id="5lbwvqWQe7k" role="3F10Kt" />
+          <node concept="VechU" id="5lbwvqWQEih" role="3F10Kt">
+            <property role="Vb096" value="hGRnIZc/lightBlue" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="5lbwvqWNy_v">
+    <property role="3GE5qa" value="table" />
+    <ref role="1XX52x" to="kq7i:5lbwvqWNy$b" resolve="ToStateColumn" />
+    <node concept="3EZMnI" id="5lbwvqWQNGY" role="2wV5jI">
+      <node concept="2iRkQZ" id="5lbwvqWQNGZ" role="2iSdaV" />
+      <node concept="1iCGBv" id="5lbwvqWNy_z" role="3EZMnx">
+        <ref role="1NtTu8" to="kq7i:5lbwvqWNy_x" resolve="toState" />
+        <node concept="1sVBvm" id="5lbwvqWNy__" role="1sWHZn">
+          <node concept="3F0A7n" id="5lbwvqWNy_G" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
+      <node concept="1iCGBv" id="5lbwvqWQNYY" role="3EZMnx">
+        <ref role="1NtTu8" to="kq7i:5lbwvqWQNHj" resolve="outPut" />
+        <node concept="1sVBvm" id="5lbwvqWQNZ0" role="1sWHZn">
+          <node concept="3F0A7n" id="5lbwvqWQNZa" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+            <node concept="Vb9p2" id="5lbwvqWQNZd" role="3F10Kt">
+              <property role="Vbekb" value="g1_kEg4/ITALIC" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="5lbwvqWNyAz">
+    <property role="3GE5qa" value="table" />
+    <ref role="1XX52x" to="kq7i:5lbwvqWNyzD" resolve="FromStateCell" />
+    <node concept="3EZMnI" id="5lbwvqWNyAO" role="2wV5jI">
+      <node concept="2iRfu4" id="5lbwvqWNyAP" role="2iSdaV" />
+      <node concept="1iCGBv" id="5lbwvqWNyA_" role="3EZMnx">
+        <ref role="1NtTu8" to="kq7i:5lbwvqWNyzE" resolve="fromState" />
+        <node concept="1sVBvm" id="5lbwvqWNyAB" role="1sWHZn">
+          <node concept="3F0A7n" id="5lbwvqWNyAL" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="5lbwvqWNyBD">
+    <property role="3GE5qa" value="table" />
+    <ref role="1XX52x" to="kq7i:5lbwvqWNyBe" resolve="TransitionCell" />
+    <node concept="3EZMnI" id="5lbwvqWNyBF" role="2wV5jI">
+      <node concept="2iRfu4" id="5lbwvqWNyBG" role="2iSdaV" />
+      <node concept="1iCGBv" id="5lbwvqWTsqf" role="3EZMnx">
+        <ref role="1NtTu8" to="kq7i:5lbwvqWRK2H" resolve="input" />
+        <node concept="1sVBvm" id="5lbwvqWTsqg" role="1sWHZn">
+          <node concept="3F0A7n" id="5lbwvqWTsql" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+            <node concept="Vb9p2" id="5lbwvqWTsqo" role="3F10Kt">
+              <property role="Vbekb" value="g1_kEg4/ITALIC" />
+            </node>
+          </node>
+        </node>
       </node>
     </node>
   </node>
