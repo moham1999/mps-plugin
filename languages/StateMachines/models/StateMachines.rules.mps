@@ -20,6 +20,9 @@
       </concept>
     </language>
     <language id="c32b788d-8e4b-4023-97f5-3e90d04ed77b" name="DclareMPS">
+      <concept id="2328169690264975584" name="DclareMPS.structure.CheckedDotExpressionWithElse" flags="ng" index="2_n6$v">
+        <child id="2328169690265034470" name="else" index="2_mOWp" />
+      </concept>
       <concept id="3943890974580131286" name="DclareMPS.structure.Equation" flags="ng" index="E34o$" />
       <concept id="4893482730976715512" name="DclareMPS.structure.StructBuilderInitAttribute" flags="ng" index="2Pygp_">
         <reference id="4893482730976715517" name="attribute" index="2Pygpw" />
@@ -42,6 +45,7 @@
       <concept id="5274342987130696546" name="DclareMPS.structure.AttributeOperation" flags="ng" index="32jkxy" />
       <concept id="5274342987128242780" name="DclareMPS.structure.Attribute" flags="ng" index="32q3_s">
         <property id="8249432652488838579" name="optional" index="KodbT" />
+        <property id="7111949708187038417" name="public" index="1incD5" />
         <property id="3362652439077809217" name="identifying" index="3CZYri" />
         <property id="4435611260595733753" name="composite" index="3K1B09" />
       </concept>
@@ -82,6 +86,7 @@
         <child id="1197027833540" name="operation" index="2OqNvi" />
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
+      <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
@@ -98,6 +103,7 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
+      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT" />
       <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
         <property id="1068580320021" name="value" index="3cmrfH" />
       </concept>
@@ -979,14 +985,8 @@
     </node>
     <node concept="1FPxxo" id="5lbwvqXhCxZ" role="1FPzNG" />
   </node>
-  <node concept="311c5q" id="5lbwvqXp_Pn">
-    <property role="3GE5qa" value="to_text" />
-    <ref role="311c5K" to="kq7i:5lbwvqWNyzD" resolve="FromStateCell" />
-    <ref role="2RaPBF" node="5lbwvqXfHcp" resolve="TO_TEXT" />
-    <node concept="1FPxxo" id="5lbwvqXuxzx" role="1FPzNG" />
-  </node>
   <node concept="311c5q" id="5lbwvqXNu3y">
-    <property role="3GE5qa" value="to_text.table" />
+    <property role="3GE5qa" value="to_text" />
     <ref role="311c5K" to="kq7i:5lbwvqWNyxK" resolve="StateMachineRow" />
     <ref role="2RaPBF" node="5lbwvqXfHcp" resolve="TO_TEXT" />
     <node concept="1FPxxo" id="5lbwvqXNu3z" role="1FPzNG" />
@@ -1028,6 +1028,96 @@
       </node>
     </node>
     <node concept="1FPxxo" id="5lbwvqXNu3C" role="1FPzNG" />
+  </node>
+  <node concept="311c5q" id="v9KtuBq1EB">
+    <property role="3GE5qa" value="simulation" />
+    <ref role="311c5K" to="kq7i:1b89R_KwaUf" resolve="State" />
+    <ref role="2RaPBF" node="v9KtuBq1EC" resolve="SIMULATION" />
+    <node concept="1FPxxo" id="v9KtuBq1EF" role="1FPzNG" />
+    <node concept="32q3_s" id="v9KtuBq1EO" role="1FPzNG">
+      <property role="TrG5h" value="active" />
+      <property role="1incD5" value="true" />
+      <node concept="10P_77" id="v9KtuBq1ET" role="1tU5fm" />
+      <node concept="3clFbT" id="v9KtuBu7rj" role="33vP2m" />
+    </node>
+    <node concept="1FPxxo" id="v9KtuBq1EK" role="1FPzNG" />
+  </node>
+  <node concept="2Rb1jd" id="v9KtuBq1EC">
+    <property role="TrG5h" value="SIMULATION" />
+    <property role="3GE5qa" value="simulation." />
+    <node concept="2RaPxm" id="v9KtuBq1ED" role="2RaPxw">
+      <ref role="2RaPxn" node="5lbwvqXfHcp" resolve="TO_TEXT" />
+    </node>
+  </node>
+  <node concept="311c5q" id="v9KtuBq3bZ">
+    <property role="3GE5qa" value="simulation" />
+    <ref role="311c5K" to="kq7i:5lbwvqWKj3R" resolve="Output" />
+    <ref role="2RaPBF" node="v9KtuBq1EC" resolve="SIMULATION" />
+    <node concept="1FPxxo" id="v9KtuBq3c0" role="1FPzNG" />
+    <node concept="32q3_s" id="v9KtuBq3c9" role="1FPzNG">
+      <property role="TrG5h" value="active" />
+      <property role="1incD5" value="true" />
+      <node concept="10P_77" id="v9KtuBq3ce" role="1tU5fm" />
+      <node concept="3clFbT" id="v9KtuBu6UJ" role="33vP2m" />
+    </node>
+    <node concept="1FPxxo" id="v9KtuBq3c2" role="1FPzNG" />
+  </node>
+  <node concept="311c5q" id="v9KtuBszak">
+    <property role="3GE5qa" value="simulation" />
+    <ref role="311c5K" to="kq7i:5lbwvqWNyzD" resolve="FromStateCell" />
+    <ref role="2RaPBF" node="v9KtuBq1EC" resolve="SIMULATION" />
+    <node concept="1FPxxo" id="v9KtuBszal" role="1FPzNG" />
+    <node concept="32q3_s" id="v9KtuBszau" role="1FPzNG">
+      <property role="TrG5h" value="active" />
+      <property role="1incD5" value="true" />
+      <node concept="10P_77" id="v9KtuBszaz" role="1tU5fm" />
+      <node concept="2OqwBi" id="v9KtuBtkw8" role="33vP2m">
+        <node concept="2OqwBi" id="v9KtuBtjv6" role="2Oq$k0">
+          <node concept="1PxgMI" id="v9KtuBtjkH" role="2Oq$k0">
+            <node concept="chp4Y" id="v9KtuBtjln" role="3oSUPX">
+              <ref role="cht4Q" to="kq7i:5lbwvqWNyxK" resolve="StateMachineRow" />
+            </node>
+            <node concept="2OqwBi" id="v9KtuBtiNU" role="1m5AlR">
+              <node concept="2Wb9Zs" id="v9KtuBtiJy" role="2Oq$k0" />
+              <node concept="1mfA1w" id="v9KtuBtjc6" role="2OqNvi" />
+            </node>
+          </node>
+          <node concept="32jkxy" id="v9KtuBtk6e" role="2OqNvi">
+            <ref role="3cqZAo" node="5lbwvqXL4AG" resolve="state" />
+          </node>
+        </node>
+        <node concept="32jkxy" id="v9KtuBtl5c" role="2OqNvi">
+          <ref role="3cqZAo" node="v9KtuBq1EO" resolve="active" />
+        </node>
+      </node>
+    </node>
+    <node concept="1FPxxo" id="v9KtuBszaq" role="1FPzNG" />
+  </node>
+  <node concept="311c5q" id="v9KtuBsAMx">
+    <property role="3GE5qa" value="simulation" />
+    <ref role="311c5K" to="kq7i:5lbwvqWNyBe" resolve="PossibleTransitionCell" />
+    <ref role="2RaPBF" node="v9KtuBq1EC" resolve="SIMULATION" />
+    <node concept="1FPxxo" id="v9KtuBsAMy" role="1FPzNG" />
+    <node concept="32q3_s" id="v9KtuBsAMF" role="1FPzNG">
+      <property role="TrG5h" value="active" />
+      <property role="1incD5" value="true" />
+      <node concept="10P_77" id="v9KtuBsAMK" role="1tU5fm" />
+      <node concept="2_n6$v" id="v9KtuBtida" role="33vP2m">
+        <node concept="3clFbT" id="v9KtuBtiyD" role="2_mOWp" />
+        <node concept="2EnYce" id="v9KtuBtgV_" role="2Oq$k0">
+          <node concept="1SfVH9" id="v9KtuBtduv" role="2Oq$k0">
+            <ref role="3cqZAo" node="5lbwvqXCPpY" resolve="transition" />
+          </node>
+          <node concept="3TrEf2" id="v9KtuBteor" role="2OqNvi">
+            <ref role="3Tt5mk" to="kq7i:5lbwvqWKpzP" resolve="input" />
+          </node>
+        </node>
+        <node concept="3TrcHB" id="v9KtuBtfxT" role="2OqNvi">
+          <ref role="3TsBF5" to="kq7i:v9KtuBmxgm" resolve="active" />
+        </node>
+      </node>
+    </node>
+    <node concept="1FPxxo" id="v9KtuBsAM$" role="1FPzNG" />
   </node>
 </model>
 
