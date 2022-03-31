@@ -72,6 +72,7 @@
     <property role="EcuMT" value="1353375090556920582" />
     <property role="TrG5h" value="StateMachine" />
     <property role="19KtqR" value="true" />
+    <property role="3GE5qa" value="text" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="1b89R_Kwuc7" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -101,6 +102,7 @@
   <node concept="1TIwiD" id="1b89R_Kwucb">
     <property role="EcuMT" value="1353375090556920587" />
     <property role="TrG5h" value="Transition" />
+    <property role="3GE5qa" value="text" />
     <ref role="1TJDcQ" node="1b89R_Kwuch" resolve="Element" />
     <node concept="1TJgyj" id="1b89R_Kwucc" role="1TKVEi">
       <property role="IQ2ns" value="1353375090556920588" />
@@ -125,6 +127,7 @@
     <property role="EcuMT" value="1353375090556920593" />
     <property role="TrG5h" value="Element" />
     <property role="R5$K7" value="true" />
+    <property role="3GE5qa" value="text" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="49c3hqRf1oc" role="1TKVEl">
       <property role="IQ2nx" value="4777207695947863564" />
@@ -135,6 +138,7 @@
   <node concept="1TIwiD" id="1b89R_KwaUf">
     <property role="EcuMT" value="1353375090556841615" />
     <property role="TrG5h" value="State" />
+    <property role="3GE5qa" value="text" />
     <ref role="1TJDcQ" node="1b89R_Kwuch" resolve="Element" />
     <node concept="1TJgyj" id="5lbwvqWKpAz" role="1TKVEi">
       <property role="IQ2ns" value="6146149013205916067" />
@@ -156,11 +160,13 @@
   <node concept="1TIwiD" id="1b89R_Kxss7">
     <property role="EcuMT" value="1353375090557175559" />
     <property role="TrG5h" value="Empty" />
+    <property role="3GE5qa" value="text" />
     <ref role="1TJDcQ" node="1b89R_Kwuch" resolve="Element" />
   </node>
   <node concept="1TIwiD" id="25flf1JmxiG">
     <property role="EcuMT" value="2400230518048822444" />
     <property role="TrG5h" value="Input" />
+    <property role="3GE5qa" value="text" />
     <ref role="1TJDcQ" node="1b89R_Kwuch" resolve="Element" />
     <node concept="PrWs8" id="5lbwvqWKj3P" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -169,6 +175,7 @@
   <node concept="1TIwiD" id="5lbwvqWKj3R">
     <property role="EcuMT" value="6146149013205889271" />
     <property role="TrG5h" value="Output" />
+    <property role="3GE5qa" value="text" />
     <ref role="1TJDcQ" node="1b89R_Kwuch" resolve="Element" />
     <node concept="PrWs8" id="5lbwvqWKj3S" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -206,9 +213,9 @@
     <node concept="1TJgyj" id="5lbwvqWNyz4" role="1TKVEi">
       <property role="IQ2ns" value="6146149013206739140" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="columns" />
+      <property role="20kJfa" value="headers" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="5lbwvqWNyxN" resolve="StateMachineColumn" />
+      <ref role="20lvS9" node="5lbwvqWNyxN" resolve="StateMachineHeader" />
     </node>
     <node concept="1TJgyj" id="5lbwvqWNyz7" role="1TKVEi">
       <property role="IQ2ns" value="6146149013206739143" />
@@ -234,7 +241,7 @@
   <node concept="1TIwiD" id="5lbwvqWNyxN">
     <property role="EcuMT" value="6146149013206739059" />
     <property role="3GE5qa" value="table" />
-    <property role="TrG5h" value="StateMachineColumn" />
+    <property role="TrG5h" value="StateMachineHeader" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
@@ -260,14 +267,14 @@
   <node concept="1TIwiD" id="5lbwvqWNy$a">
     <property role="EcuMT" value="6146149013206739210" />
     <property role="3GE5qa" value="table" />
-    <property role="TrG5h" value="EmptyColumn" />
-    <ref role="1TJDcQ" node="5lbwvqWNyxN" resolve="StateMachineColumn" />
+    <property role="TrG5h" value="LeftUpperHeader" />
+    <ref role="1TJDcQ" node="5lbwvqWNyxN" resolve="StateMachineHeader" />
   </node>
   <node concept="1TIwiD" id="5lbwvqWNy$b">
     <property role="EcuMT" value="6146149013206739211" />
     <property role="3GE5qa" value="table" />
-    <property role="TrG5h" value="ToStateColumn" />
-    <ref role="1TJDcQ" node="5lbwvqWNyxN" resolve="StateMachineColumn" />
+    <property role="TrG5h" value="ToStateHeader" />
+    <ref role="1TJDcQ" node="5lbwvqWNyxN" resolve="StateMachineHeader" />
     <node concept="1TJgyj" id="5lbwvqWNy_x" role="1TKVEi">
       <property role="IQ2ns" value="6146149013206739297" />
       <property role="20kJfa" value="toState" />
@@ -277,7 +284,6 @@
     <node concept="1TJgyj" id="5lbwvqWQNHj" role="1TKVEi">
       <property role="IQ2ns" value="6146149013207595859" />
       <property role="20kJfa" value="outPut" />
-      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="5lbwvqWKj3R" resolve="Output" />
     </node>
   </node>

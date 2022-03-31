@@ -23,14 +23,14 @@
       <concept id="6146149013206530775" name="StateMachines.structure.StateMachineTable" flags="ng" index="3DwnGx">
         <reference id="6146149013206530778" name="stateMachine" index="3DwnGG" />
         <child id="6146149013206739143" name="rows" index="3Dxq$L" />
-        <child id="6146149013206739140" name="columns" index="3Dxq$M" />
+        <child id="6146149013206739140" name="headers" index="3Dxq$M" />
       </concept>
       <concept id="6146149013206739406" name="StateMachines.structure.TransitionCell" flags="ng" index="3DxqwS">
         <reference id="6146149013207842989" name="input" index="3D_85r" />
         <reference id="6146149013207842987" name="transition" index="3D_85t" />
       </concept>
-      <concept id="6146149013206739210" name="StateMachines.structure.EmptyColumn" flags="ng" index="3DxqzW" />
-      <concept id="6146149013206739211" name="StateMachines.structure.ToStateColumn" flags="ng" index="3DxqzX">
+      <concept id="6146149013206739210" name="StateMachines.structure.LeftUpperHeader" flags="ng" index="3DxqzW" />
+      <concept id="6146149013206739211" name="StateMachines.structure.ToStateHeader" flags="ng" index="3DxqzX">
         <reference id="6146149013206739297" name="toState" index="3Dxqyn" />
         <reference id="6146149013207595859" name="outPut" index="3D$bE_" />
       </concept>
@@ -59,6 +59,9 @@
     <node concept="1e5k1s" id="5lbwvqWL_ZN" role="1yishF">
       <property role="TrG5h" value="endTimer" />
     </node>
+    <node concept="1e5k1s" id="5lbwvqX9lBw" role="1yishF">
+      <property role="TrG5h" value="xxxxxxx" />
+    </node>
     <node concept="1yju1Y" id="5lbwvqWL0ca" role="1yishF" />
     <node concept="3DyF41" id="5lbwvqWL0bL" role="1yishF">
       <property role="TrG5h" value="green" />
@@ -68,6 +71,9 @@
     </node>
     <node concept="3DyF41" id="5lbwvqWLuwr" role="1yishF">
       <property role="TrG5h" value="startTimer" />
+    </node>
+    <node concept="3DyF41" id="5lbwvqX9lC4" role="1yishF">
+      <property role="TrG5h" value="yyyyyyy" />
     </node>
     <node concept="1yju1Y" id="5lbwvqWL0b0" role="1yishF" />
     <node concept="1yi8BQ" id="1b89R_Kyr6v" role="1yishF">
@@ -103,14 +109,6 @@
     <property role="TrG5h" value="Traffic Light" />
     <ref role="3DwnGG" node="1b89R_Kyr6u" resolve="Traffic Light" />
     <node concept="3DxqzW" id="5lbwvqWPLTU" role="3Dxq$M" />
-    <node concept="3DxqzX" id="5lbwvqWPLTV" role="3Dxq$M">
-      <ref role="3Dxqyn" node="1b89R_Kyr6v" resolve="GREEN" />
-      <ref role="3D$bE_" node="5lbwvqWL0bL" resolve="green" />
-    </node>
-    <node concept="3DxqzX" id="5lbwvqWPLTW" role="3Dxq$M">
-      <ref role="3Dxqyn" node="1b89R_Kyr6x" resolve="ORANGE" />
-      <ref role="3D$bE_" node="5lbwvqWLuwr" resolve="startTimer" />
-    </node>
     <node concept="3DxqA6" id="5lbwvqWPLTY" role="3Dxq$L">
       <node concept="3Dxq$v" id="5lbwvqWPLU5" role="3Dxq$R">
         <ref role="3Dxq$s" node="1b89R_Kyr6v" resolve="GREEN" />
@@ -144,7 +142,15 @@
       <node concept="3DxqwS" id="5lbwvqWPLU3" role="3Dxq$R" />
       <node concept="3DxqwS" id="5lbwvqWPLU4" role="3Dxq$R" />
     </node>
-    <node concept="3DxqzX" id="5lbwvqWPLTX" role="3Dxq$M">
+    <node concept="3DxqzX" id="5lbwvqX83Qx" role="3Dxq$M">
+      <ref role="3Dxqyn" node="1b89R_Kyr6v" resolve="GREEN" />
+      <ref role="3D$bE_" node="5lbwvqWL0bL" resolve="green" />
+    </node>
+    <node concept="3DxqzX" id="5lbwvqX83Qy" role="3Dxq$M">
+      <ref role="3Dxqyn" node="1b89R_Kyr6x" resolve="ORANGE" />
+      <ref role="3D$bE_" node="5lbwvqWLuwr" resolve="startTimer" />
+    </node>
+    <node concept="3DxqzX" id="5lbwvqX83Qz" role="3Dxq$M">
       <ref role="3Dxqyn" node="1b89R_Kyr6$" resolve="RED" />
       <ref role="3D$bE_" node="5lbwvqWLuvV" resolve="red" />
     </node>
