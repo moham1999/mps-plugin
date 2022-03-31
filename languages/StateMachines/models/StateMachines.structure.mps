@@ -132,6 +132,16 @@
       <property role="20kJfa" value="currentInput" />
       <ref role="20lvS9" node="25flf1JmxiG" resolve="Input" />
     </node>
+    <node concept="1TJgyj" id="v9KtuB_qi4" role="1TKVEi">
+      <property role="IQ2ns" value="561192760558068868" />
+      <property role="20kJfa" value="currentOutput" />
+      <ref role="20lvS9" node="5lbwvqWKj3R" resolve="Output" />
+    </node>
+    <node concept="1TJgyj" id="v9KtuB_qhI" role="1TKVEi">
+      <property role="IQ2ns" value="561192760558068846" />
+      <property role="20kJfa" value="currentState" />
+      <ref role="20lvS9" node="1b89R_KwaUf" resolve="State" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1b89R_Kwucb">
     <property role="EcuMT" value="1353375090556920587" />

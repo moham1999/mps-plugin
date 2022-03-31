@@ -1028,8 +1028,8 @@
           <node concept="1SfVH9" id="v9KtuBwkmr" role="2Oq$k0">
             <ref role="3cqZAo" node="5lbwvqWOMK5" resolve="stateMachine" />
           </node>
-          <node concept="32jkxy" id="v9KtuBwlWS" role="2OqNvi">
-            <ref role="3cqZAo" node="v9KtuBwboZ" resolve="currentState" />
+          <node concept="3TrEf2" id="v9KtuB_Z_X" role="2OqNvi">
+            <ref role="3Tt5mk" to="kq7i:v9KtuB_qhI" resolve="currentState" />
           </node>
         </node>
       </node>
@@ -1058,8 +1058,8 @@
           <node concept="1SfVH9" id="v9KtuBwi4H" role="2Oq$k0">
             <ref role="3cqZAo" node="5lbwvqWOMK5" resolve="stateMachine" />
           </node>
-          <node concept="32jkxy" id="v9KtuBwjuo" role="2OqNvi">
-            <ref role="3cqZAo" node="v9KtuBwaC6" resolve="currentOutput" />
+          <node concept="3TrEf2" id="v9KtuB_Z9y" role="2OqNvi">
+            <ref role="3Tt5mk" to="kq7i:v9KtuB_qi4" resolve="currentOutput" />
           </node>
         </node>
       </node>
@@ -1122,28 +1122,6 @@
       </node>
     </node>
     <node concept="1FPxxo" id="v9KtuBsAM$" role="1FPzNG" />
-  </node>
-  <node concept="311c5q" id="v9KtuBw9GJ">
-    <property role="3GE5qa" value="simulation" />
-    <ref role="311c5K" to="kq7i:1b89R_Kwuc6" resolve="StateMachine" />
-    <ref role="2RaPBF" node="v9KtuBq1EC" resolve="SIMULATION" />
-    <node concept="1FPxxo" id="v9KtuBwaBT" role="1FPzNG" />
-    <node concept="32q3_s" id="v9KtuBwaC6" role="1FPzNG">
-      <property role="TrG5h" value="currentOutput" />
-      <property role="KodbT" value="true" />
-      <node concept="3Tqbb2" id="v9KtuBwaCe" role="1tU5fm">
-        <ref role="ehGHo" to="kq7i:5lbwvqWKj3R" resolve="Output" />
-      </node>
-    </node>
-    <node concept="1FPxxo" id="v9KtuBwboG" role="1FPzNG" />
-    <node concept="32q3_s" id="v9KtuBwboZ" role="1FPzNG">
-      <property role="KodbT" value="true" />
-      <property role="TrG5h" value="currentState" />
-      <node concept="3Tqbb2" id="v9KtuBwbpb" role="1tU5fm">
-        <ref role="ehGHo" to="kq7i:1b89R_KwaUf" resolve="State" />
-      </node>
-    </node>
-    <node concept="1FPxxo" id="v9KtuBw9GP" role="1FPzNG" />
   </node>
   <node concept="311c5q" id="v9KtuBwckx">
     <property role="3GE5qa" value="base" />
