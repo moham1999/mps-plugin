@@ -1201,7 +1201,7 @@
     <node concept="1FPxxo" id="v9KtuBwdCB" role="1FPzNG" />
   </node>
   <node concept="311c5q" id="v9KtuBCwr1">
-    <property role="3GE5qa" value="simulation.text" />
+    <property role="3GE5qa" value="simulation" />
     <ref role="311c5K" to="kq7i:1b89R_Kwucb" resolve="Transition" />
     <ref role="2RaPBF" node="v9KtuBq1EC" resolve="SIMULATION" />
     <node concept="1FPxxo" id="v9KtuBCwr2" role="1FPzNG" />
