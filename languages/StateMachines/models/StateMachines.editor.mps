@@ -139,8 +139,23 @@
         <node concept="3EZMnI" id="1b89R_Kwud2" role="3EZMnx">
           <node concept="VPM3Z" id="1b89R_Kwud4" role="3F10Kt" />
           <node concept="3F2HdR" id="1b89R_Kwudd" role="3EZMnx">
-            <ref role="1NtTu8" to="kq7i:1b89R_Kwuci" resolve="elements" />
+            <ref role="1NtTu8" to="kq7i:5lbwvqXvtrm" resolve="inputs" />
             <node concept="2iRkQZ" id="1b89R_KxoJs" role="2czzBx" />
+          </node>
+          <node concept="3F0ifn" id="5lbwvqX$Mpw" role="3EZMnx" />
+          <node concept="3F2HdR" id="5lbwvqX$MpY" role="3EZMnx">
+            <ref role="1NtTu8" to="kq7i:5lbwvqXxy8T" resolve="outputs" />
+            <node concept="2iRkQZ" id="5lbwvqX$MpZ" role="2czzBx" />
+          </node>
+          <node concept="3F0ifn" id="5lbwvqX$Mp$" role="3EZMnx" />
+          <node concept="3F2HdR" id="5lbwvqX$Mq9" role="3EZMnx">
+            <ref role="1NtTu8" to="kq7i:5lbwvqXvtrp" resolve="states" />
+            <node concept="2iRkQZ" id="5lbwvqX$Mqa" role="2czzBx" />
+          </node>
+          <node concept="3F0ifn" id="5lbwvqX$MpD" role="3EZMnx" />
+          <node concept="3F2HdR" id="5lbwvqX$Mqm" role="3EZMnx">
+            <ref role="1NtTu8" to="kq7i:5lbwvqXxy91" resolve="transitions" />
+            <node concept="2iRkQZ" id="5lbwvqX$Mqn" role="2czzBx" />
           </node>
           <node concept="2iRkQZ" id="1b89R_Kwud7" role="2iSdaV" />
         </node>
@@ -253,17 +268,6 @@
         </node>
       </node>
       <node concept="PMmxH" id="5lbwvqWKj57" role="3EZMnx">
-        <ref role="PMmxG" node="5lbwvqWKj3U" resolve="DescriptionComponent" />
-      </node>
-    </node>
-  </node>
-  <node concept="24kQdi" id="1b89R_Kxssy">
-    <property role="3GE5qa" value="text" />
-    <ref role="1XX52x" to="kq7i:1b89R_Kxss7" resolve="Empty" />
-    <node concept="3EZMnI" id="1b89R_KxssB" role="2wV5jI">
-      <node concept="2iRfu4" id="1b89R_KxssE" role="2iSdaV" />
-      <node concept="35HoNQ" id="1b89R_KxssI" role="3EZMnx" />
-      <node concept="PMmxH" id="5lbwvqWKj5A" role="3EZMnx">
         <ref role="PMmxG" node="5lbwvqWKj3U" resolve="DescriptionComponent" />
       </node>
     </node>
@@ -437,24 +441,18 @@
     <ref role="1XX52x" to="kq7i:5lbwvqWNyzD" resolve="FromStateCell" />
     <node concept="3EZMnI" id="5lbwvqWNyAO" role="2wV5jI">
       <node concept="2iRfu4" id="5lbwvqWNyAP" role="2iSdaV" />
-      <node concept="1iCGBv" id="5lbwvqWNyA_" role="3EZMnx">
-        <ref role="1NtTu8" to="kq7i:5lbwvqWNyzE" resolve="fromState" />
-        <node concept="VechU" id="5lbwvqXa6oD" role="3F10Kt">
+      <node concept="VPM3Z" id="5lbwvqWYxoy" role="3F10Kt" />
+      <node concept="3F0A7n" id="5lbwvqXp_OT" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        <node concept="VechU" id="5lbwvqXp_OV" role="3F10Kt">
           <property role="Vb096" value="g1_qRwE/darkGreen" />
         </node>
-        <node concept="1sVBvm" id="5lbwvqWNyAB" role="1sWHZn">
-          <node concept="3F0A7n" id="5lbwvqWNyAL" role="2wV5jI">
-            <property role="1Intyy" value="true" />
-            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-          </node>
-        </node>
       </node>
-      <node concept="VPM3Z" id="5lbwvqWYxoy" role="3F10Kt" />
     </node>
   </node>
   <node concept="24kQdi" id="5lbwvqWNyBD">
     <property role="3GE5qa" value="table" />
-    <ref role="1XX52x" to="kq7i:5lbwvqWNyBe" resolve="TransitionCell" />
+    <ref role="1XX52x" to="kq7i:5lbwvqWNyBe" resolve="PossibleTransitionCell" />
     <node concept="3EZMnI" id="5lbwvqWNyBF" role="2wV5jI">
       <node concept="2iRfu4" id="5lbwvqWNyBG" role="2iSdaV" />
       <node concept="1iCGBv" id="5lbwvqWTsqf" role="3EZMnx">
