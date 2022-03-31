@@ -127,6 +127,11 @@
         </node>
       </node>
     </node>
+    <node concept="1TJgyj" id="v9KtuBwOWq" role="1TKVEi">
+      <property role="IQ2ns" value="561192760556867354" />
+      <property role="20kJfa" value="currentInput" />
+      <ref role="20lvS9" node="25flf1JmxiG" resolve="Input" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1b89R_Kwucb">
     <property role="EcuMT" value="1353375090556920587" />
@@ -191,11 +196,6 @@
     <property role="TrG5h" value="Input" />
     <property role="3GE5qa" value="text" />
     <ref role="1TJDcQ" node="1b89R_Kwuch" resolve="Element" />
-    <node concept="1TJgyi" id="v9KtuBmxgm" role="1TKVEl">
-      <property role="IQ2nx" value="561192760554165270" />
-      <property role="TrG5h" value="active" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
     <node concept="PrWs8" id="5lbwvqWKj3P" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>

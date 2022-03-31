@@ -67,9 +67,6 @@
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
-      <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
-        <reference id="1138056395725" name="property" index="3TsBF5" />
-      </concept>
       <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
         <reference id="1138056516764" name="link" index="3Tt5mk" />
       </concept>
@@ -170,8 +167,8 @@
         <node concept="3clFbF" id="v9KtuBq4bR" role="3cqZAp">
           <node concept="2OqwBi" id="v9KtuBq4um" role="3clFbG">
             <node concept="13iPFW" id="v9KtuBq4j$" role="2Oq$k0" />
-            <node concept="3TrcHB" id="v9KtuBq4Cp" role="2OqNvi">
-              <ref role="3TsBF5" to="kq7i:v9KtuBmxgm" resolve="active" />
+            <node concept="32jkxy" id="v9KtuBxRZB" role="2OqNvi">
+              <ref role="3cqZAo" to="13z1:v9KtuBwdCI" resolve="active" />
             </node>
           </node>
         </node>
