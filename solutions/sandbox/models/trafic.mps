@@ -18,6 +18,7 @@
       </concept>
       <concept id="1353375090556920582" name="StateMachines.structure.StateMachine" flags="ng" index="1yishZ">
         <reference id="561192760556867354" name="currentInput" index="2wiCVd" />
+        <reference id="561192760558068868" name="currentOutput" index="2wn6lj" />
         <reference id="561192760558068846" name="currentState" index="2wn6mT" />
         <child id="6146149013218252502" name="inputs" index="3Cd_sw" />
         <child id="6146149013218252505" name="states" index="3Cd_sJ" />
@@ -54,7 +55,8 @@
   </registry>
   <node concept="1yishZ" id="1b89R_Kyr6u">
     <property role="TrG5h" value="Traffic Light" />
-    <ref role="2wiCVd" node="5lbwvqWL0bc" resolve="godRed" />
+    <ref role="2wiCVd" node="5lbwvqWL_ZN" resolve="endTimer" />
+    <ref role="2wn6lj" node="5lbwvqWLuvV" resolve="red" />
     <ref role="2wn6mT" node="1b89R_Kyr6$" resolve="RED" />
     <node concept="1yi8BQ" id="1b89R_Kyr6v" role="3Cd_sJ">
       <property role="TrG5h" value="GREEN" />
