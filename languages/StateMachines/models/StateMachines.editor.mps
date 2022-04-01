@@ -41,6 +41,9 @@
       </concept>
       <concept id="1186404549998" name="jetbrains.mps.lang.editor.structure.ForegroundColorStyleClassItem" flags="ln" index="VechU" />
       <concept id="1186414928363" name="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" flags="ln" index="VPM3Z" />
+      <concept id="1186415722038" name="jetbrains.mps.lang.editor.structure.FontSizeStyleClassItem" flags="ln" index="VSNWy">
+        <property id="1221209241505" name="value" index="1lJzqX" />
+      </concept>
       <concept id="1214406454886" name="jetbrains.mps.lang.editor.structure.TextBackgroundColorStyleClassItem" flags="ln" index="30gYXW" />
       <concept id="8313721352726366579" name="jetbrains.mps.lang.editor.structure.CellModel_Empty" flags="ng" index="35HoNQ" />
       <concept id="1139535219966" name="jetbrains.mps.lang.editor.structure.CellActionMapDeclaration" flags="ig" index="1h_SRR">
@@ -245,9 +248,39 @@
           <property role="Vb096" value="g1_eI4o/darkBlue" />
         </node>
       </node>
+      <node concept="3F0ifn" id="$eK5CHiWDY" role="3EZMnx">
+        <property role="3F0ifm" value="  " />
+        <ref role="1ERwB7" node="v9KtuBBjeY" resolve="State_Actions" />
+        <node concept="30gYXW" id="$eK5CHiWWd" role="3F10Kt">
+          <node concept="3ZlJ5R" id="$eK5CHiWWe" role="VblUZ">
+            <node concept="3clFbS" id="$eK5CHiWWf" role="2VODD2">
+              <node concept="3clFbF" id="$eK5CHiWWg" role="3cqZAp">
+                <node concept="3K4zz7" id="$eK5CHiWWh" role="3clFbG">
+                  <node concept="10M0yZ" id="$eK5CHiWWi" role="3K4E3e">
+                    <ref role="1PxDUh" to="z60i:~Color" resolve="Color" />
+                    <ref role="3cqZAo" to="z60i:~Color.RED" resolve="RED" />
+                  </node>
+                  <node concept="10M0yZ" id="$eK5CHiWWj" role="3K4GZi">
+                    <ref role="1PxDUh" to="z60i:~Color" resolve="Color" />
+                    <ref role="3cqZAo" to="z60i:~Color.LIGHT_GRAY" resolve="LIGHT_GRAY" />
+                  </node>
+                  <node concept="2OqwBi" id="$eK5CHiWWk" role="3K4Cdx">
+                    <node concept="pncrf" id="$eK5CHiWWl" role="2Oq$k0" />
+                    <node concept="2qgKlT" id="$eK5CHiWWm" role="2OqNvi">
+                      <ref role="37wK5l" to="r3ev:v9KtuBq4av" resolve="isActive" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="VSNWy" id="$eK5CHjTF_" role="3F10Kt">
+          <property role="1lJzqX" value="10" />
+        </node>
+      </node>
       <node concept="3F0A7n" id="1b89R_KwudI" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-        <ref role="1ERwB7" node="v9KtuBBjeY" resolve="State_Actions" />
         <node concept="VechU" id="5lbwvqX9lCn" role="3F10Kt">
           <property role="Vb096" value="g1_qRwE/darkGreen" />
         </node>
@@ -413,9 +446,39 @@
           <property role="Vb096" value="g1_eI4o/darkBlue" />
         </node>
       </node>
+      <node concept="3F0ifn" id="$eK5CHitJj" role="3EZMnx">
+        <property role="3F0ifm" value="  " />
+        <ref role="1ERwB7" node="v9KtuBmxg7" resolve="Input_Actions" />
+        <node concept="30gYXW" id="$eK5CHitVj" role="3F10Kt">
+          <node concept="3ZlJ5R" id="$eK5CHitVk" role="VblUZ">
+            <node concept="3clFbS" id="$eK5CHitVl" role="2VODD2">
+              <node concept="3clFbF" id="$eK5CHitVm" role="3cqZAp">
+                <node concept="3K4zz7" id="$eK5CHitVn" role="3clFbG">
+                  <node concept="10M0yZ" id="$eK5CHiu5z" role="3K4E3e">
+                    <ref role="3cqZAo" to="z60i:~Color.RED" resolve="RED" />
+                    <ref role="1PxDUh" to="z60i:~Color" resolve="Color" />
+                  </node>
+                  <node concept="10M0yZ" id="$eK5CHiu6T" role="3K4GZi">
+                    <ref role="3cqZAo" to="z60i:~Color.LIGHT_GRAY" resolve="LIGHT_GRAY" />
+                    <ref role="1PxDUh" to="z60i:~Color" resolve="Color" />
+                  </node>
+                  <node concept="2OqwBi" id="$eK5CHitVq" role="3K4Cdx">
+                    <node concept="pncrf" id="$eK5CHitVr" role="2Oq$k0" />
+                    <node concept="2qgKlT" id="$eK5CHitVs" role="2OqNvi">
+                      <ref role="37wK5l" to="r3ev:v9KtuBq4av" resolve="isActive" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="VSNWy" id="$eK5CHjrvc" role="3F10Kt">
+          <property role="1lJzqX" value="10" />
+        </node>
+      </node>
       <node concept="3F0A7n" id="5lbwvqWKj6g" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-        <ref role="1ERwB7" node="v9KtuBmxg7" resolve="Input_Actions" />
         <node concept="Vb9p2" id="5lbwvqWKpAi" role="3F10Kt">
           <property role="Vbekb" value="g1_kEg4/ITALIC" />
         </node>
