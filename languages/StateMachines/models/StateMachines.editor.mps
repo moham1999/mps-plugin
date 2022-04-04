@@ -991,15 +991,75 @@
   <node concept="24kQdi" id="60Htx5iFs3R">
     <property role="3GE5qa" value="table" />
     <ref role="1XX52x" to="kq7i:60Htx5it7J4" resolve="TableInput" />
-    <node concept="3F0A7n" id="60Htx5iFs3T" role="2wV5jI">
-      <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+    <node concept="3EZMnI" id="60Htx5iSeOM" role="2wV5jI">
+      <node concept="2iRfu4" id="60Htx5iSeON" role="2iSdaV" />
+      <node concept="3F0A7n" id="60Htx5iFs3T" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        <node concept="Vb9p2" id="60Htx5iSeOK" role="3F10Kt">
+          <property role="Vbekb" value="g1_kEg4/ITALIC" />
+        </node>
+        <node concept="30gYXW" id="60Htx5iSeXw" role="3F10Kt">
+          <node concept="3ZlJ5R" id="60Htx5iSeXx" role="VblUZ">
+            <node concept="3clFbS" id="60Htx5iSeXy" role="2VODD2">
+              <node concept="3clFbF" id="60Htx5iSeXz" role="3cqZAp">
+                <node concept="3K4zz7" id="60Htx5iSeX$" role="3clFbG">
+                  <node concept="10M0yZ" id="60Htx5iSeX_" role="3K4E3e">
+                    <ref role="3cqZAo" to="z60i:~Color.YELLOW" resolve="YELLOW" />
+                    <ref role="1PxDUh" to="z60i:~Color" resolve="Color" />
+                  </node>
+                  <node concept="10M0yZ" id="60Htx5iSeXA" role="3K4GZi">
+                    <ref role="3cqZAo" to="z60i:~Color.WHITE" resolve="WHITE" />
+                    <ref role="1PxDUh" to="z60i:~Color" resolve="Color" />
+                  </node>
+                  <node concept="2OqwBi" id="60Htx5iSeXB" role="3K4Cdx">
+                    <node concept="pncrf" id="60Htx5iSeXC" role="2Oq$k0" />
+                    <node concept="2qgKlT" id="60Htx5iSeXD" role="2OqNvi">
+                      <ref role="37wK5l" to="r3ev:60Htx5iDijd" resolve="isActive" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
   <node concept="24kQdi" id="60Htx5iFs4m">
     <property role="3GE5qa" value="table" />
     <ref role="1XX52x" to="kq7i:60Htx5it7J7" resolve="TableOutput" />
-    <node concept="3F0A7n" id="60Htx5iFs4o" role="2wV5jI">
-      <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+    <node concept="3EZMnI" id="60Htx5iSeOU" role="2wV5jI">
+      <node concept="2iRfu4" id="60Htx5iSeOV" role="2iSdaV" />
+      <node concept="3F0A7n" id="60Htx5iFs4o" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        <node concept="Vb9p2" id="60Htx5iSeP0" role="3F10Kt">
+          <property role="Vbekb" value="g1_kEg4/ITALIC" />
+        </node>
+        <node concept="30gYXW" id="60Htx5iSeYV" role="3F10Kt">
+          <node concept="3ZlJ5R" id="60Htx5iSeYW" role="VblUZ">
+            <node concept="3clFbS" id="60Htx5iSeYX" role="2VODD2">
+              <node concept="3clFbF" id="60Htx5iSeYY" role="3cqZAp">
+                <node concept="3K4zz7" id="60Htx5iSeYZ" role="3clFbG">
+                  <node concept="10M0yZ" id="60Htx5iSeZ0" role="3K4E3e">
+                    <ref role="1PxDUh" to="z60i:~Color" resolve="Color" />
+                    <ref role="3cqZAo" to="z60i:~Color.YELLOW" resolve="YELLOW" />
+                  </node>
+                  <node concept="10M0yZ" id="60Htx5iSeZ1" role="3K4GZi">
+                    <ref role="3cqZAo" to="z60i:~Color.WHITE" resolve="WHITE" />
+                    <ref role="1PxDUh" to="z60i:~Color" resolve="Color" />
+                  </node>
+                  <node concept="2OqwBi" id="60Htx5iSeZ2" role="3K4Cdx">
+                    <node concept="pncrf" id="60Htx5iSeZ3" role="2Oq$k0" />
+                    <node concept="2qgKlT" id="60Htx5iSeZ4" role="2OqNvi">
+                      <ref role="37wK5l" to="r3ev:60Htx5i_y4u" resolve="isActive" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
 </model>

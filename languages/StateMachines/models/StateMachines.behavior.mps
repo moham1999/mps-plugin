@@ -371,48 +371,6 @@
       <node concept="3clFbS" id="v9KtuBsypD" role="2VODD2" />
     </node>
   </node>
-  <node concept="13h7C7" id="v9KtuBsA7R">
-    <property role="3GE5qa" value="table" />
-    <ref role="13h7C2" to="kq7i:5lbwvqWNyBe" resolve="PossibleTransitionCell" />
-    <node concept="13i0hz" id="v9KtuBsA82" role="13h7CS">
-      <property role="TrG5h" value="isActive" />
-      <node concept="3Tm1VV" id="v9KtuBsA83" role="1B3o_S" />
-      <node concept="10P_77" id="v9KtuBsA84" role="3clF45" />
-      <node concept="3clFbS" id="v9KtuBsA85" role="3clF47">
-        <node concept="3cpWs8" id="60Htx5iyBw3" role="3cqZAp">
-          <node concept="3cpWsn" id="60Htx5iyBw4" role="3cpWs9">
-            <property role="TrG5h" value="active" />
-            <node concept="3uibUv" id="60Htx5iyBw5" role="1tU5fm">
-              <ref role="3uigEE" to="wyt6:~Boolean" resolve="Boolean" />
-            </node>
-            <node concept="2OqwBi" id="60Htx5iyBw6" role="33vP2m">
-              <node concept="13iPFW" id="60Htx5iyBw7" role="2Oq$k0" />
-              <node concept="32jkxy" id="60Htx5iyBw8" role="2OqNvi">
-                <ref role="3cqZAo" to="13z1:v9KtuBsAMF" resolve="active" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="60Htx5iyC5p" role="3cqZAp">
-          <node concept="3K4zz7" id="60Htx5iyC5q" role="3clFbG">
-            <node concept="37vLTw" id="60Htx5iyC5r" role="3K4E3e">
-              <ref role="3cqZAo" node="60Htx5iyBw4" resolve="active" />
-            </node>
-            <node concept="3clFbT" id="60Htx5iyC5s" role="3K4GZi" />
-            <node concept="3y3z36" id="60Htx5iyC5t" role="3K4Cdx">
-              <node concept="10Nm6u" id="60Htx5iyC5u" role="3uHU7w" />
-              <node concept="37vLTw" id="60Htx5iyC5v" role="3uHU7B">
-                <ref role="3cqZAo" node="60Htx5iyBw4" resolve="active" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="13hLZK" id="v9KtuBsA7S" role="13h7CW">
-      <node concept="3clFbS" id="v9KtuBsA7T" role="2VODD2" />
-    </node>
-  </node>
   <node concept="13h7C7" id="60Htx5iwc6e">
     <property role="3GE5qa" value="table" />
     <ref role="13h7C2" to="kq7i:5lbwvqWNy$b" resolve="ToStateHeader" />
