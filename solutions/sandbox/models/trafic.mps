@@ -55,8 +55,8 @@
   <node concept="1yishZ" id="1b89R_Kyr6u">
     <property role="TrG5h" value="Traffic Light" />
     <ref role="2wiCVd" node="5lbwvqWL_ZN" resolve="endTimer" />
-    <ref role="2wn6lj" node="5lbwvqWLuvV" resolve="red" />
     <ref role="2wn6mT" node="1b89R_Kyr6$" resolve="RED" />
+    <ref role="2wn6lj" node="5lbwvqWLuvV" resolve="red" />
     <node concept="1yi8BQ" id="1b89R_Kyr6v" role="3Cd_sJ">
       <property role="TrG5h" value="GREEN" />
       <ref role="3Dyxxl" node="5lbwvqWL0bL" resolve="green" />
