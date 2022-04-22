@@ -21,7 +21,6 @@
       <concept id="1353375090556920582" name="StateMachines.structure.StateMachine" flags="ng" index="1yishZ">
         <reference id="561192760556867354" name="currentInput" index="2wiCVd" />
         <reference id="561192760558068868" name="currentOutput" index="2wn6lj" />
-        <reference id="561192760558068846" name="currentState" index="2wn6mT" />
         <child id="6146149013218252502" name="inputs" index="3Cd_sw" />
         <child id="6146149013218252505" name="states" index="3Cd_sJ" />
         <child id="6146149013218796097" name="transitions" index="3CNqeR" />
@@ -55,34 +54,18 @@
   <node concept="1yishZ" id="1b89R_Kyr6u">
     <property role="TrG5h" value="Traffic Light" />
     <ref role="2wiCVd" node="5lbwvqWL_ZN" resolve="endTimer" />
-    <ref role="2wn6mT" node="1b89R_Kyr6$" resolve="RED" />
     <ref role="2wn6lj" node="5lbwvqWLuvV" resolve="red" />
     <node concept="1yi8BQ" id="1b89R_Kyr6v" role="3Cd_sJ">
       <property role="TrG5h" value="GREEN" />
       <ref role="3Dyxxl" node="5lbwvqWL0bL" resolve="green" />
     </node>
-    <node concept="1yi8BQ" id="1b89R_Kyr6x" role="3Cd_sJ">
+    <node concept="1yi8BQ" id="2cNQsAJEs9K" role="3Cd_sJ">
       <property role="TrG5h" value="ORANGE" />
       <ref role="3Dyxxl" node="5lbwvqWLuwr" resolve="startTimer" />
     </node>
-    <node concept="1yi8BQ" id="1b89R_Kyr6$" role="3Cd_sJ">
+    <node concept="1yi8BQ" id="2cNQsAJEs8W" role="3Cd_sJ">
       <property role="TrG5h" value="RED" />
       <ref role="3Dyxxl" node="5lbwvqWLuvV" resolve="red" />
-    </node>
-    <node concept="1yishM" id="1b89R_Kyr6E" role="3CNqeR">
-      <ref role="1yishP" node="1b89R_Kyr6v" resolve="GREEN" />
-      <ref role="3Dyx$3" node="5lbwvqWL0bc" resolve="goRed" />
-      <ref role="1yishR" node="1b89R_Kyr6x" resolve="ORANGE" />
-    </node>
-    <node concept="1yishM" id="1b89R_KyuRH" role="3CNqeR">
-      <ref role="1yishP" node="1b89R_Kyr6x" resolve="ORANGE" />
-      <ref role="1yishR" node="1b89R_Kyr6$" resolve="RED" />
-      <ref role="3Dyx$3" node="5lbwvqWL_ZN" resolve="endTimer" />
-    </node>
-    <node concept="1yishM" id="1b89R_KyuRK" role="3CNqeR">
-      <ref role="3Dyx$3" node="5lbwvqWL0c$" resolve="goGreen" />
-      <ref role="1yishP" node="1b89R_Kyr6$" resolve="RED" />
-      <ref role="1yishR" node="1b89R_Kyr6v" resolve="GREEN" />
     </node>
     <node concept="3DyF41" id="5lbwvqWL0bL" role="3CNqff">
       <property role="TrG5h" value="green" />
@@ -101,6 +84,21 @@
     </node>
     <node concept="1e5k1s" id="5lbwvqWL_ZN" role="3Cd_sw">
       <property role="TrG5h" value="endTimer" />
+    </node>
+    <node concept="1yishM" id="2cNQsAJEtFP" role="3CNqeR">
+      <ref role="1yishR" node="2cNQsAJEs9K" resolve="ORANGE" />
+      <ref role="1yishP" node="1b89R_Kyr6v" resolve="GREEN" />
+      <ref role="3Dyx$3" node="5lbwvqWL0bc" resolve="godRed" />
+    </node>
+    <node concept="1yishM" id="2cNQsAJEtFR" role="3CNqeR">
+      <ref role="1yishR" node="2cNQsAJEs8W" resolve="RED" />
+      <ref role="1yishP" node="2cNQsAJEs9K" resolve="ORANGE" />
+      <ref role="3Dyx$3" node="5lbwvqWL_ZN" resolve="endTimer" />
+    </node>
+    <node concept="1yishM" id="2cNQsAJEtFU" role="3CNqeR">
+      <ref role="1yishR" node="1b89R_Kyr6v" resolve="GREEN" />
+      <ref role="1yishP" node="2cNQsAJEs8W" resolve="RED" />
+      <ref role="3Dyx$3" node="5lbwvqWL0c$" resolve="goGreen" />
     </node>
   </node>
   <node concept="3DwnGx" id="60Htx5iK0FE">
@@ -127,41 +125,41 @@
     <node concept="3DxqzX" id="60Htx5iK0FM" role="3Dxq$M">
       <ref role="3D$bE_" node="60Htx5iK0FI" resolve="green" />
     </node>
-    <node concept="3DxqA6" id="60Htx5iK0FP" role="3Dxq$L">
-      <node concept="3Dxq$v" id="7J8ZPcctjQA" role="3Dxq$R">
+    <node concept="3DxqzX" id="2cNQsAJEs9L" role="3Dxq$M">
+      <ref role="3D$bE_" node="60Htx5iK0FK" resolve="startTimer" />
+    </node>
+    <node concept="3DxqzX" id="2cNQsAJEs8X" role="3Dxq$M">
+      <ref role="3D$bE_" node="60Htx5iK0FJ" resolve="red" />
+    </node>
+    <node concept="3DxqA6" id="2cNQsAJC_$y" role="3Dxq$L">
+      <node concept="3Dxq$v" id="2cNQsAJC_$z" role="3Dxq$R">
         <property role="TrG5h" value="GREEN" />
       </node>
-      <node concept="3DxqwS" id="60Htx5iK0FT" role="3Dxq$R" />
-      <node concept="3DxqwS" id="7J8ZPccu7us" role="3Dxq$R">
+      <node concept="3DxqwS" id="2cNQsAJC_$$" role="3Dxq$R" />
+      <node concept="3DxqwS" id="2cNQsAJEs9M" role="3Dxq$R">
         <ref role="3D_85r" node="60Htx5iK0FF" resolve="godRed" />
       </node>
-      <node concept="3DxqwS" id="7J8ZPccu7uU" role="3Dxq$R" />
+      <node concept="3DxqwS" id="2cNQsAJEs8Y" role="3Dxq$R" />
     </node>
-    <node concept="3DxqA6" id="7J8ZPccu7ui" role="3Dxq$L">
-      <node concept="3Dxq$v" id="7J8ZPccu7ut" role="3Dxq$R">
+    <node concept="3DxqA6" id="2cNQsAJEs9n" role="3Dxq$L">
+      <node concept="3Dxq$v" id="2cNQsAJEs9P" role="3Dxq$R">
         <property role="TrG5h" value="ORANGE" />
       </node>
-      <node concept="3DxqwS" id="7J8ZPccu7uu" role="3Dxq$R" />
-      <node concept="3DxqwS" id="7J8ZPccu7uv" role="3Dxq$R" />
-      <node concept="3DxqwS" id="7J8ZPccu7uV" role="3Dxq$R">
+      <node concept="3DxqwS" id="2cNQsAJEs9Q" role="3Dxq$R" />
+      <node concept="3DxqwS" id="2cNQsAJEs9R" role="3Dxq$R" />
+      <node concept="3DxqwS" id="2cNQsAJEs9S" role="3Dxq$R">
         <ref role="3D_85r" node="60Htx5iK0FH" resolve="endTimer" />
       </node>
     </node>
-    <node concept="3DxqzX" id="7J8ZPccu7ur" role="3Dxq$M">
-      <ref role="3D$bE_" node="60Htx5iK0FK" resolve="startTimer" />
-    </node>
-    <node concept="3DxqA6" id="7J8ZPccu7uD" role="3Dxq$L">
-      <node concept="3Dxq$v" id="7J8ZPccu7uW" role="3Dxq$R">
+    <node concept="3DxqA6" id="2cNQsAJEs8G" role="3Dxq$L">
+      <node concept="3Dxq$v" id="2cNQsAJEs90" role="3Dxq$R">
         <property role="TrG5h" value="RED" />
       </node>
-      <node concept="3DxqwS" id="7J8ZPccu7uX" role="3Dxq$R">
+      <node concept="3DxqwS" id="2cNQsAJEs91" role="3Dxq$R">
         <ref role="3D_85r" node="60Htx5iK0FG" resolve="goGreen" />
       </node>
-      <node concept="3DxqwS" id="7J8ZPccu7uY" role="3Dxq$R" />
-      <node concept="3DxqwS" id="7J8ZPccu7uZ" role="3Dxq$R" />
-    </node>
-    <node concept="3DxqzX" id="7J8ZPccu7uT" role="3Dxq$M">
-      <ref role="3D$bE_" node="60Htx5iK0FJ" resolve="red" />
+      <node concept="3DxqwS" id="2cNQsAJEs9O" role="3Dxq$R" />
+      <node concept="3DxqwS" id="2cNQsAJEs92" role="3Dxq$R" />
     </node>
   </node>
 </model>
