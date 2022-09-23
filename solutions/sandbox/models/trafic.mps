@@ -52,116 +52,122 @@
       </concept>
     </language>
   </registry>
-  <node concept="1yishZ" id="1b89R_Kyr6u">
-    <property role="TrG5h" value="Traffic Light" />
-    <ref role="2wiCVd" node="5lbwvqWL_ZN" resolve="endTimer" />
-    <ref role="2wn6mT" node="1b89R_Kyr6$" resolve="RED" />
-    <ref role="2wn6lj" node="5lbwvqWLuvV" resolve="red" />
-    <node concept="1yi8BQ" id="1b89R_Kyr6v" role="3Cd_sJ">
-      <property role="TrG5h" value="GREEN" />
-      <ref role="3Dyxxl" node="5lbwvqWL0bL" resolve="green" />
+  <node concept="1yishZ" id="7cBVUd6SvdM">
+    <property role="TrG5h" value="TrafficLight" />
+    <ref role="2wiCVd" node="7FCg8KIXFUu" resolve="goGreen" />
+    <ref role="2wn6lj" node="7FCg8KIXFUy" resolve="green" />
+    <ref role="2wn6mT" node="7cBVUd6SvdO" resolve="GREEN" />
+    <node concept="1yishM" id="7FCg8KIXFUE" role="3CNqeR">
+      <ref role="1yishP" node="7cBVUd6SvdO" resolve="start" />
+      <ref role="1yishR" node="7cBVUd6Sve2" resolve="ORANGE" />
+      <ref role="3Dyx$3" node="2cmYrTpHt_Q" resolve="goRed" />
     </node>
-    <node concept="1yi8BQ" id="1b89R_Kyr6x" role="3Cd_sJ">
-      <property role="TrG5h" value="ORANGE" />
-      <ref role="3Dyxxl" node="5lbwvqWLuwr" resolve="startTimer" />
+    <node concept="1yishM" id="2cmYrTpHtAc" role="3CNqeR">
+      <ref role="1yishP" node="7cBVUd6Sve2" resolve="ORANGE" />
+      <ref role="3Dyx$3" node="2cmYrTpHt_W" resolve="timerEnd" />
+      <ref role="1yishR" node="2cmYrTpHt_b" resolve="RED" />
     </node>
-    <node concept="1yi8BQ" id="1b89R_Kyr6$" role="3Cd_sJ">
-      <property role="TrG5h" value="RED" />
-      <ref role="3Dyxxl" node="5lbwvqWLuvV" resolve="red" />
+    <node concept="1yishM" id="2cmYrTpHtAf" role="3CNqeR">
+      <ref role="1yishP" node="2cmYrTpHt_b" resolve="RED" />
+      <ref role="3Dyx$3" node="7FCg8KIXFUu" resolve="goGreen" />
+      <ref role="1yishR" node="7cBVUd6SvdO" resolve="GREEN" />
     </node>
-    <node concept="1yishM" id="1b89R_Kyr6E" role="3CNqeR">
-      <ref role="1yishP" node="1b89R_Kyr6v" resolve="GREEN" />
-      <ref role="3Dyx$3" node="5lbwvqWL0bc" resolve="goRed" />
-      <ref role="1yishR" node="1b89R_Kyr6x" resolve="ORANGE" />
-    </node>
-    <node concept="1yishM" id="1b89R_KyuRH" role="3CNqeR">
-      <ref role="1yishP" node="1b89R_Kyr6x" resolve="ORANGE" />
-      <ref role="1yishR" node="1b89R_Kyr6$" resolve="RED" />
-      <ref role="3Dyx$3" node="5lbwvqWL_ZN" resolve="endTimer" />
-    </node>
-    <node concept="1yishM" id="1b89R_KyuRK" role="3CNqeR">
-      <ref role="3Dyx$3" node="5lbwvqWL0c$" resolve="goGreen" />
-      <ref role="1yishP" node="1b89R_Kyr6$" resolve="RED" />
-      <ref role="1yishR" node="1b89R_Kyr6v" resolve="GREEN" />
-    </node>
-    <node concept="3DyF41" id="5lbwvqWL0bL" role="3CNqff">
+    <node concept="3DyF41" id="7FCg8KIXFUy" role="3CNqff">
       <property role="TrG5h" value="green" />
     </node>
-    <node concept="3DyF41" id="5lbwvqWLuvV" role="3CNqff">
+    <node concept="3DyF41" id="7FCg8KIXFUB" role="3CNqff">
       <property role="TrG5h" value="red" />
     </node>
-    <node concept="3DyF41" id="5lbwvqWLuwr" role="3CNqff">
-      <property role="TrG5h" value="startTimer" />
+    <node concept="3DyF41" id="2cmYrTpHtA4" role="3CNqff">
+      <property role="TrG5h" value="timerStart" />
     </node>
-    <node concept="1e5k1s" id="5lbwvqWL0bc" role="3Cd_sw">
-      <property role="TrG5h" value="godRed" />
-    </node>
-    <node concept="1e5k1s" id="5lbwvqWL0c$" role="3Cd_sw">
+    <node concept="1e5k1s" id="7FCg8KIXFUu" role="3Cd_sw">
       <property role="TrG5h" value="goGreen" />
     </node>
-    <node concept="1e5k1s" id="5lbwvqWL_ZN" role="3Cd_sw">
-      <property role="TrG5h" value="endTimer" />
+    <node concept="1e5k1s" id="2cmYrTpHt_Q" role="3Cd_sw">
+      <property role="TrG5h" value="goRed" />
+    </node>
+    <node concept="1e5k1s" id="2cmYrTpHt_W" role="3Cd_sw">
+      <property role="TrG5h" value="timerEnd" />
+    </node>
+    <node concept="1yi8BQ" id="7cBVUd6SvdO" role="3Cd_sJ">
+      <property role="TrG5h" value="GREEN" />
+      <ref role="3Dyxxl" node="7FCg8KIXFUy" resolve="567567" />
+    </node>
+    <node concept="1yi8BQ" id="7cBVUd6Sve2" role="3Cd_sJ">
+      <property role="TrG5h" value="ORANGE" />
+      <ref role="3Dyxxl" node="2cmYrTpHtA4" resolve="timerStart" />
+    </node>
+    <node concept="1yi8BQ" id="2cmYrTpHt_b" role="3Cd_sJ">
+      <property role="TrG5h" value="RED" />
+      <ref role="3Dyxxl" node="7FCg8KIXFUB" resolve="red" />
     </node>
   </node>
-  <node concept="3DwnGx" id="60Htx5iK0FE">
-    <property role="TrG5h" value="Traffic Light" />
-    <node concept="3DxqzW" id="60Htx5iK0FL" role="3Dxq$M" />
-    <node concept="MmgRl" id="60Htx5iK0FF" role="MmgRr">
-      <property role="TrG5h" value="godRed" />
-    </node>
-    <node concept="MmgRl" id="60Htx5iK0FG" role="MmgRr">
-      <property role="TrG5h" value="goGreen" />
-    </node>
-    <node concept="MmgRl" id="60Htx5iK0FH" role="MmgRr">
-      <property role="TrG5h" value="endTimer" />
-    </node>
-    <node concept="MmgRm" id="60Htx5iK0FI" role="MmgRu">
+  <node concept="3DwnGx" id="7cBVUd6SvdN">
+    <property role="TrG5h" value="TrafficLight" />
+    <node concept="MmgRm" id="7FCg8KIXFUw" role="MmgRu">
       <property role="TrG5h" value="green" />
     </node>
-    <node concept="MmgRm" id="60Htx5iK0FJ" role="MmgRu">
+    <node concept="MmgRm" id="7FCg8KIXFU$" role="MmgRu">
       <property role="TrG5h" value="red" />
     </node>
-    <node concept="MmgRm" id="60Htx5iK0FK" role="MmgRu">
-      <property role="TrG5h" value="startTimer" />
+    <node concept="MmgRm" id="2cmYrTpHtA8" role="MmgRu">
+      <property role="TrG5h" value="timerStart" />
     </node>
-    <node concept="3DxqzX" id="60Htx5iK0FM" role="3Dxq$M">
-      <ref role="3D$bE_" node="60Htx5iK0FI" resolve="green" />
+    <node concept="MmgRl" id="7FCg8KIXFUs" role="MmgRr">
+      <property role="TrG5h" value="goGreen" />
     </node>
-    <node concept="3DxqA6" id="60Htx5iK0FP" role="3Dxq$L">
-      <node concept="3Dxq$v" id="7J8ZPcctjQA" role="3Dxq$R">
+    <node concept="MmgRl" id="2cmYrTpHt_T" role="MmgRr">
+      <property role="TrG5h" value="goRed" />
+    </node>
+    <node concept="MmgRl" id="2cmYrTpHtA0" role="MmgRr">
+      <property role="TrG5h" value="timerEnd" />
+    </node>
+    <node concept="3DxqzW" id="7cBVUd6SvdQ" role="3Dxq$M" />
+    <node concept="3DxqzX" id="7cBVUd6SvdR" role="3Dxq$M">
+      <property role="TrG5h" value="GREEN" />
+      <ref role="3D$bE_" node="7FCg8KIXFUw" resolve="567567" />
+    </node>
+    <node concept="3DxqzX" id="7cBVUd6Sve6" role="3Dxq$M">
+      <property role="TrG5h" value="ORANGE" />
+      <ref role="3D$bE_" node="2cmYrTpHtA8" resolve="timerStart" />
+    </node>
+    <node concept="3DxqzX" id="2cmYrTpHt_g" role="3Dxq$M">
+      <property role="TrG5h" value="RED" />
+      <ref role="3D$bE_" node="7FCg8KIXFU$" resolve="red" />
+    </node>
+    <node concept="3DxqA6" id="7cBVUd6SvdP" role="3Dxq$L">
+      <property role="TrG5h" value="GREEN" />
+      <node concept="3Dxq$v" id="7cBVUd6SvdS" role="3Dxq$R">
         <property role="TrG5h" value="GREEN" />
       </node>
-      <node concept="3DxqwS" id="60Htx5iK0FT" role="3Dxq$R" />
-      <node concept="3DxqwS" id="7J8ZPccu7us" role="3Dxq$R">
-        <ref role="3D_85r" node="60Htx5iK0FF" resolve="godRed" />
+      <node concept="3DxqwS" id="7cBVUd6SvdT" role="3Dxq$R" />
+      <node concept="3DxqwS" id="7cBVUd6Sve7" role="3Dxq$R">
+        <ref role="3D_85r" node="2cmYrTpHt_T" resolve="goRed" />
       </node>
-      <node concept="3DxqwS" id="7J8ZPccu7uU" role="3Dxq$R" />
+      <node concept="3DxqwS" id="2cmYrTpHt_h" role="3Dxq$R" />
     </node>
-    <node concept="3DxqA6" id="7J8ZPccu7ui" role="3Dxq$L">
-      <node concept="3Dxq$v" id="7J8ZPccu7ut" role="3Dxq$R">
+    <node concept="3DxqA6" id="7cBVUd6Sve5" role="3Dxq$L">
+      <property role="TrG5h" value="ORANGE" />
+      <node concept="3Dxq$v" id="7cBVUd6Sve8" role="3Dxq$R">
         <property role="TrG5h" value="ORANGE" />
       </node>
-      <node concept="3DxqwS" id="7J8ZPccu7uu" role="3Dxq$R" />
-      <node concept="3DxqwS" id="7J8ZPccu7uv" role="3Dxq$R" />
-      <node concept="3DxqwS" id="7J8ZPccu7uV" role="3Dxq$R">
-        <ref role="3D_85r" node="60Htx5iK0FH" resolve="endTimer" />
+      <node concept="3DxqwS" id="7cBVUd6Sve9" role="3Dxq$R" />
+      <node concept="3DxqwS" id="7cBVUd6Svea" role="3Dxq$R" />
+      <node concept="3DxqwS" id="2cmYrTpHt_i" role="3Dxq$R">
+        <ref role="3D_85r" node="2cmYrTpHtA0" resolve="timerEnd" />
       </node>
     </node>
-    <node concept="3DxqzX" id="7J8ZPccu7ur" role="3Dxq$M">
-      <ref role="3D$bE_" node="60Htx5iK0FK" resolve="startTimer" />
-    </node>
-    <node concept="3DxqA6" id="7J8ZPccu7uD" role="3Dxq$L">
-      <node concept="3Dxq$v" id="7J8ZPccu7uW" role="3Dxq$R">
+    <node concept="3DxqA6" id="2cmYrTpHt_f" role="3Dxq$L">
+      <property role="TrG5h" value="RED" />
+      <node concept="3Dxq$v" id="2cmYrTpHt_j" role="3Dxq$R">
         <property role="TrG5h" value="RED" />
       </node>
-      <node concept="3DxqwS" id="7J8ZPccu7uX" role="3Dxq$R">
-        <ref role="3D_85r" node="60Htx5iK0FG" resolve="goGreen" />
+      <node concept="3DxqwS" id="2cmYrTpHt_k" role="3Dxq$R">
+        <ref role="3D_85r" node="7FCg8KIXFUs" resolve="goGreen" />
       </node>
-      <node concept="3DxqwS" id="7J8ZPccu7uY" role="3Dxq$R" />
-      <node concept="3DxqwS" id="7J8ZPccu7uZ" role="3Dxq$R" />
-    </node>
-    <node concept="3DxqzX" id="7J8ZPccu7uT" role="3Dxq$M">
-      <ref role="3D$bE_" node="60Htx5iK0FJ" resolve="red" />
+      <node concept="3DxqwS" id="2cmYrTpHt_l" role="3Dxq$R" />
+      <node concept="3DxqwS" id="2cmYrTpHt_m" role="3Dxq$R" />
     </node>
   </node>
 </model>
