@@ -4,6 +4,7 @@
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/StateMachines/StateMachines.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/sandbox/sandbox.msd" folder="" />
+      <modulePath path="$USER_HOME$/Desktop/University/4th Year.nosync/globalModelListener/solutions/MPSListener/MPSListener.msd" folder="" />
     </projectModules>
   </component>
 </project>

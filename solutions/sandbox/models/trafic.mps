@@ -3,6 +3,9 @@
   <persistence version="9" />
   <languages>
     <use id="c840535e-4213-4a05-832f-5cc528f47f6e" name="StateMachines" version="2" />
+    <use id="479c7a8c-02f9-43b5-9139-d910cb22f298" name="jetbrains.mps.core.xml" version="0" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
   </languages>
   <imports />
   <registry>
@@ -59,27 +62,35 @@
     <ref role="2wn6mT" node="7cBVUd6SvdO" resolve="GREEN" />
     <node concept="1yishM" id="7FCg8KIXFUE" role="3CNqeR">
       <ref role="1yishP" node="7cBVUd6SvdO" resolve="start" />
-      <ref role="1yishR" node="7cBVUd6Sve2" resolve="ORANGE" />
       <ref role="3Dyx$3" node="2cmYrTpHt_Q" resolve="goRed" />
+      <ref role="1yishR" node="7cBVUd6Sve2" resolve="ORANGE" />
     </node>
     <node concept="1yishM" id="2cmYrTpHtAc" role="3CNqeR">
       <ref role="1yishP" node="7cBVUd6Sve2" resolve="ORANGE" />
-      <ref role="3Dyx$3" node="2cmYrTpHt_W" resolve="timerEnd" />
-      <ref role="1yishR" node="2cmYrTpHt_b" resolve="RED" />
+      <ref role="3Dyx$3" node="2cmYrTpHt_Q" resolve="goRed" />
+      <ref role="1yishR" node="7cBVUd6Sve2" resolve="RED" />
     </node>
     <node concept="1yishM" id="2cmYrTpHtAf" role="3CNqeR">
-      <ref role="1yishP" node="2cmYrTpHt_b" resolve="RED" />
-      <ref role="3Dyx$3" node="7FCg8KIXFUu" resolve="goGreen" />
+      <ref role="3Dyx$3" node="7FCg8KIXFUu" resolve="stop" />
+      <ref role="1yishP" node="7cBVUd6Sve2" resolve="RED" />
       <ref role="1yishR" node="7cBVUd6SvdO" resolve="GREEN" />
     </node>
+    <node concept="1yishM" id="2$9yhxC9n_5" role="3CNqeR">
+      <ref role="1yishP" node="2$9yhxC9lEE" resolve="BLUE" />
+      <ref role="3Dyx$3" node="2cmYrTpHt_Q" resolve="goRed" />
+      <ref role="1yishR" node="2$9yhxC9lEE" resolve="BLUE" />
+    </node>
     <node concept="3DyF41" id="7FCg8KIXFUy" role="3CNqff">
-      <property role="TrG5h" value="green" />
+      <property role="TrG5h" value="orange" />
     </node>
     <node concept="3DyF41" id="7FCg8KIXFUB" role="3CNqff">
       <property role="TrG5h" value="red" />
     </node>
     <node concept="3DyF41" id="2cmYrTpHtA4" role="3CNqff">
       <property role="TrG5h" value="timerStart" />
+    </node>
+    <node concept="3DyF41" id="2$9yhxC9mgm" role="3CNqff">
+      <property role="TrG5h" value="blue" />
     </node>
     <node concept="1e5k1s" id="7FCg8KIXFUu" role="3Cd_sw">
       <property role="TrG5h" value="goGreen" />
@@ -90,17 +101,20 @@
     <node concept="1e5k1s" id="2cmYrTpHt_W" role="3Cd_sw">
       <property role="TrG5h" value="timerEnd" />
     </node>
+    <node concept="1e5k1s" id="bS4FuttR$6" role="3Cd_sw">
+      <property role="TrG5h" value="wait" />
+    </node>
     <node concept="1yi8BQ" id="7cBVUd6SvdO" role="3Cd_sJ">
       <property role="TrG5h" value="GREEN" />
       <ref role="3Dyxxl" node="7FCg8KIXFUy" resolve="567567" />
     </node>
     <node concept="1yi8BQ" id="7cBVUd6Sve2" role="3Cd_sJ">
-      <property role="TrG5h" value="ORANGE" />
-      <ref role="3Dyxxl" node="2cmYrTpHtA4" resolve="timerStart" />
-    </node>
-    <node concept="1yi8BQ" id="2cmYrTpHt_b" role="3Cd_sJ">
       <property role="TrG5h" value="RED" />
       <ref role="3Dyxxl" node="7FCg8KIXFUB" resolve="red" />
+    </node>
+    <node concept="1yi8BQ" id="2$9yhxC9lEE" role="3Cd_sJ">
+      <property role="TrG5h" value="BLUE" />
+      <ref role="3Dyxxl" node="2$9yhxC9mgm" resolve="blue" />
     </node>
   </node>
   <node concept="3DwnGx" id="7cBVUd6SvdN">
@@ -168,6 +182,24 @@
       </node>
       <node concept="3DxqwS" id="2cmYrTpHt_l" role="3Dxq$R" />
       <node concept="3DxqwS" id="2cmYrTpHt_m" role="3Dxq$R" />
+    </node>
+  </node>
+  <node concept="1yishZ" id="2$9yhxCabB_">
+    <property role="TrG5h" value="server" />
+    <node concept="1e5k1s" id="2$9yhxCflw8" role="3Cd_sw">
+      <property role="TrG5h" value="stop" />
+    </node>
+    <node concept="1e5k1s" id="2$9yhxCflwa" role="3Cd_sw">
+      <property role="TrG5h" value="wait" />
+    </node>
+    <node concept="3DyF41" id="2$9yhxCflwd" role="3CNqff">
+      <property role="TrG5h" value="stop" />
+    </node>
+    <node concept="1yi8BQ" id="2$9yhxCflwf" role="3Cd_sJ">
+      <property role="TrG5h" value="Yellow" />
+    </node>
+    <node concept="1yi8BQ" id="2$9yhxCflwh" role="3Cd_sJ">
+      <property role="TrG5h" value="Green" />
     </node>
   </node>
 </model>
